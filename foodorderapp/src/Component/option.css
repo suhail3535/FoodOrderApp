@@ -1,0 +1,109 @@
+.choice_container{
+    border: 1px solid gainsboro;
+    width: 100%;
+    margin: 2rem auto;
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+background-color:RGB(231 240 246);
+    padding: 6rem;
+    border-radius: 5px;
+}
+.option_div{
+    width: 100%;
+    border-radius: 5px;
+
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+
+}
+.option_div:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+/* .header_div{
+    width: 100%;
+    margin: 10px auto;
+    height: 200px;
+} */
+.foodImage_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(244,243,241);
+
+/* margin-top: 5rem; */
+}
+.foodImage_div img{
+    width: 100%;
+    object-fit: contain;
+    height: 600px;
+    /* border: 1px solid green; */
+}
+.arrow_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.arrow_div img {
+  max-width: 4%;
+  color: black;
+  height: auto;
+}
+
+@media screen and (min-width:280px) and (max-width:768px) {
+.foodImage_div img{
+    width: 95%;
+    object-fit: contain;
+    /* height: 600px; */
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    margin: 20px auto;
+    height: 400px;
+}
+.arrow_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+}
+
+.arrow_div img {
+  max-width: 15%;
+  color: black;
+  height: auto;
+}
+.choice_container{
+    border: 1px solid gainsboro;
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+flex-direction: column;
+background-color:RGB(231 240 246);
+    padding: 2rem;
+    border-radius: 5px;
+}
+.option_div{
+    width: 100%;
+    border-radius: 5px;
+
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+
+}
+}
