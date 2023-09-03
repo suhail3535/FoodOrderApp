@@ -10,7 +10,7 @@
   border-bottom: 1px solid white;
 }
 #logo{
-  border:0px solid red;
+  /* border:2px solid red; */
   width:8%;
   /* height: 30px; */
   border-radius:5px;
@@ -133,7 +133,13 @@
   .wrapperRight {
      display: none;
   }
+#logo{
+  /* border:2px solid red; */
+  width:15%;
+  /* height: 30px; */
+  border-radius:5px;
 
+}
   .wrapper {
 
     width: 100%;
