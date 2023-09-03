@@ -11,7 +11,7 @@
 }
 #logo{
   /* border:2px solid red; */
-  width:8%;
+  width:6%;
   /* height: 30px; */
   border-radius:5px;
 
@@ -53,8 +53,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
-  margin-right: 50px;
+  width: 80%;
+  margin-right: 20px;
   /* border: 2px solid green; */
 }
 
@@ -119,15 +119,7 @@
     color: white;
   }
 
-  .navbar-resume:hover {
-    background: rgb(121, 114, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
-  }
+
 }
  @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
@@ -135,7 +127,7 @@
   }
 #logo{
   /* border:2px solid red; */
-  width:15%;
+  width:18%;
   /* height: 30px; */
   border-radius:5px;
 
@@ -143,15 +135,19 @@
   .wrapper {
 
     width: 100%;
-    border: 0px solid red;
+    border: px solid red;
   }
 
   .responce {
     margin-right: 40px;
     display: block;
     font-size: 30px;
+    /* border: 1px solid green; */
   }
-
+.responce svg{
+  font-size: 2.5rem;
+  /* border: 1px solid red; */
+}
   .drawerbody {
     font-size: 20px;
     display: flex;

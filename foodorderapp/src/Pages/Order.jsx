@@ -17,7 +17,7 @@ const Order = () => {
       const response = await axios.get(
         'https://myapplication-9clu.onrender.com/burger'
       );
-      console.log('all choice', response.data);
+      // console.log('all choice', response.data);
       setburgerOrder(response.data);
     } catch (error) {
       console.log(error);
@@ -28,7 +28,7 @@ const Order = () => {
       const response = await axios.get(
         'https://myapplication-9clu.onrender.com/sagar'
       );
-      console.log('all choice', response.data);
+      // console.log('all choice', response.data);
       setsagarOrder(response.data);
     } catch (error) {
       console.log(error);
@@ -40,7 +40,7 @@ const Order = () => {
       const response = await axios.get(
         'https://myapplication-9clu.onrender.com/pizza'
       );
-      console.log('all choice', response.data);
+      // console.log('all choice', response.data);
       setpizzaOrder(response.data);
     } catch (error) {
       console.log(error);
@@ -52,7 +52,7 @@ const Order = () => {
       const response = await axios.get(
         'https://myapplication-9clu.onrender.com/other'
       );
-      console.log('all choice', response.data);
+      // console.log('all choice', response.data);
       setotherOrder(response.data);
     } catch (error) {
       console.log(error);
@@ -75,7 +75,7 @@ const Order = () => {
         isClosable: true,
         position: "top-center"
       })
-      console.log('Item deleted successfully.');
+      // console.log('Item deleted successfully.');
 
     } catch (error) {
 
@@ -97,7 +97,7 @@ const Order = () => {
         position: "top-center"
       })
       getSagarData()
-      console.log('Item deleted successfully.');
+      // console.log('Item deleted successfully.');
     } catch (error) {
 
       console.error('Error deleting item:', error);
@@ -118,7 +118,7 @@ const Order = () => {
         position: "top-center"
       })
       getPizzaData()
-      console.log('Item deleted successfully.');
+      // console.log('Item deleted successfully.');
     } catch (error) {
 
       console.error('Error deleting item:', error);
@@ -139,7 +139,7 @@ const Order = () => {
         position: "top-center"
       })
       otherData()
-      console.log('Item deleted successfully.');
+      // console.log('Item deleted successfully.');
     } catch (error) {
 
       console.error('Error deleting item:', error);

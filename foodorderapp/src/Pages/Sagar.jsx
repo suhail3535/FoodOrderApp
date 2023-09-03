@@ -46,7 +46,7 @@ const Sagar = () => {
             setTimeout(() => {
                 navigate("/order")
             }, 2000)
-            console.log(response.data);
+            // console.log(response.data);
         } catch (error) {
             console.log(error);
         }
@@ -87,7 +87,7 @@ const Sagar = () => {
                             <option value='Samosa'>Samosa</option>
                             <option value='Panner Sandwich'>Panner Sandwich</option>
                             <option value='Bread Sandwich'>Bread Sandwich</option>
-                            <option value='Tandoor Role'>Dandoor Role</option>
+                            <option value='Tandoor Roll'>Dandoor Roll</option>
                             <option value='Other'>Other</option>
                         </Select>
                     </FormControl>

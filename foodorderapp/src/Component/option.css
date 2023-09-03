@@ -60,6 +60,20 @@ background-color:RGB(231 240 246);
   height: auto;
 }
 
+.heading{
+
+    text-align: center;
+    font-size: 1.8rem;
+    /* padding: 15px; */
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+     border-radius: 5px;
+     width: 300px;
+     padding: 5px 10px;
+
+}
+
 @media screen and (min-width:280px) and (max-width:768px) {
 .foodImage_div img{
     width: 95%;
