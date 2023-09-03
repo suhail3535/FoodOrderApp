@@ -24,7 +24,7 @@ const Option = () => {
                 </Link>
                 <Link to="/other">
                     {" "}
-                    <div className="option_div">Others</div>
+                    <div className="option_div">Other</div>
                 </Link>
             </div>
         </div>
