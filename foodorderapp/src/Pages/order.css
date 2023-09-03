@@ -57,7 +57,7 @@ tr:nth-child(even) {
 /* Add responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
   table {
-    font-size:14px;
+    font-size:10px;
     font-weight: bold;
   }
 
