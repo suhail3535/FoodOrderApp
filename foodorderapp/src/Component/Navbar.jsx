@@ -66,7 +66,7 @@ function Navbar () {
                             duration={500}
                             className="nav-link skills"
                         >
-                            Domino's
+                            Domino's Pizza
                         </Link>
                     </div>
                     <div>
@@ -77,7 +77,7 @@ function Navbar () {
                             duration={500}
                             className="nav-link projects"
                         >
-                            Burgur King
+                            Burger King
                         </Link>
                     </div>
                     <div>
@@ -132,7 +132,7 @@ function Navbar () {
                                             duration={500}
                                             className="nav-link skills"
                                         >
-                                            Domino's
+                                            Domino's Pizza
                                         </Link>
                                     </div>
                                     <div>
@@ -143,7 +143,7 @@ function Navbar () {
                                             duration={500}
                                             className="nav-link projects"
                                         >
-                                            Burgur King
+                                            Burger King
                                         </Link>
                                     </div>
                                     <div>

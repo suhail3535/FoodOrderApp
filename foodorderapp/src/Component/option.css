@@ -16,7 +16,7 @@ background-color:RGB(231 240 246);
     padding: 10px;
     font-weight: bold;
     text-align: center;
-    background-color: #fff;
+    background-color: #9de8db;
     border: 1px solid gainsboro;
 
 }
@@ -98,11 +98,12 @@ background-color:RGB(231 240 246);
 .option_div{
     width: 100%;
     border-radius: 5px;
-
+    letter-spacing: 0ch;
     padding: 10px;
     font-weight: bold;
     text-align: center;
-    background-color: #fff;
+    background-color: #9de8db;
+
     border: 1px solid gainsboro;
 
 }

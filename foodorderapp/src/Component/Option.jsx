@@ -6,7 +6,7 @@ const Option = () => {
     return (
         <div>
             <div className="header_div"> <Header /> </div>
-            <div className="arrow_div"> <h1 style={{ textAlign: "center", fontSize: "2rem" }}>Select your choice</h1>
+            <div className="arrow_div"> <h1 style={{ textAlign: "center", fontSize: "2rem", padding: "15px", backgroundColor: "black", color: "white", marginTop: "10px", borderRadius: "5px" }}>Select your choice</h1>
                 <img src="https://media3.giphy.com/media/9PekRRQ0WlrRVwynAk/200w.gif?cid=6c09b952o1vttabpgab70dl7d9z4mxkn6o9dnakkp5o017pe&ep=v1_gifs_search&rid=200w.gif&ct=s" alt="" />
             </div>
 
