@@ -87,7 +87,7 @@ const Sagar = () => {
                             <option value='Samosa'>Samosa</option>
                             <option value='Panner Sandwich'>Panner Sandwich</option>
                             <option value='Bread Sandwich'>Bread Sandwich</option>
-                            <option value='Tandoor Roll'>Dandoor Roll</option>
+                            <option value='Tandoor Roll'>Tandoor Roll</option>
                             <option value='Other'>Other</option>
                         </Select>
                     </FormControl>
