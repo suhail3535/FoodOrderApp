@@ -21,6 +21,10 @@ background-color:RGB(231 240 246);
 
 }
 .option_div:hover{
+    box-shadow: 5px 5px 1px #02fbc9;
+    transition: all ease 0.1s;
+}
+.option_div:hover{
     background-color: black;
     cursor: pointer;
     color: white;
