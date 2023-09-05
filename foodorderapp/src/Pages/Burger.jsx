@@ -40,7 +40,7 @@ const Burger = () => {
             );
             console.log(response.data);
             toast({
-                title: 'Choice Added successfully.',
+                title: 'Thankyou! Choice Added successfully.',
 
                 description: "",
                 status: 'success',
@@ -58,7 +58,7 @@ const Burger = () => {
             console.log(error);
         }
         setTimeout(() => {
-            navigate("/order")
+            navigate("/")
         }, 2000)
 
     };
@@ -84,7 +84,7 @@ const Burger = () => {
                         textAlign: "center",
                         fontSize: "20px",
                         fontWeight: "bold",
-                        marginTop: "6rem",
+                        margin: "1rem",
                     }}>
                     Welcome to Burger King
                 </h1>

@@ -1,13 +1,15 @@
 .navbar {
   width: 100%;
-
   background-color: #9f7ae4af;
   backdrop-filter: blur(12px) saturate(180%);
-  position: fixed;
-  z-index: 100;
+  z-index: 1;
   font-size: 18px;
   color: white;
   border-bottom: 1px solid white;
+  position: fixed; /* Add this line to fix the navbar at the top */
+  top: 0; /* Add this line to position it at the top */
+  left: 0; /* Add this line to position it at the left */
+  right: 0; /* Add this line to stretch it to the right */
 }
 #logo{
   /* border:2px solid red; */

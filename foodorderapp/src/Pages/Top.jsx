@@ -25,7 +25,7 @@ export default function BackToTop () {
 
     useEffect(() => {
         const toggleVisibility = () => {
-            if (window.pageYOffset > 500) {
+            if (window.pageYOffset > 100) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);

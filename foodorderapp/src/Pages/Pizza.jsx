@@ -31,7 +31,7 @@ const Pizza = () => {
                 item
             );
             toast({
-                title: 'Choice Added successfully.',
+                title: 'Thankyou !Choice Added successfully.',
 
                 description: "",
                 status: 'success',
@@ -45,7 +45,7 @@ const Pizza = () => {
                 quantity: "1",
             });
             setTimeout(() => {
-                navigate("/order")
+                navigate("/")
             }, 2000)
             // console.log(response.data);
         } catch (error) {

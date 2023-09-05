@@ -1,15 +1,16 @@
 .select_option_tab_burger{
     width: 60%;
-    margin:  2rem auto;
+    margin:  auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
 
 }
 .burger_container{
-    width: 60%;
+    width: 50%;
     margin:  auto;
-    height: auto;
-    padding: 2rem;
+    /* border: 1px solid gray; */
+    height: auto;margin-top: 10rem;
+    /* padding: 2rem; */
     /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 }
 .btn_div{

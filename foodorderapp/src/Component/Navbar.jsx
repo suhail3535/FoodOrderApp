@@ -36,7 +36,7 @@ function Navbar () {
                     </Link>
                 </div>
                 <div className="wrapperRight">
-                    <div>
+                    {/* <div>
                         <Link
                             to="/order"
                             smooth={true}
@@ -46,7 +46,7 @@ function Navbar () {
                         >
                             All Order
                         </Link>
-                    </div>
+                    </div> */}
                     <div>
                         <Link
                             to="/sagar"

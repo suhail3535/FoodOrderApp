@@ -31,7 +31,7 @@ const Sagar = () => {
                 item // Send the 'item' state object
             );
             toast({
-                title: 'Choice Added successfully.',
+                title: 'Thankyou!Choice Added successfully.',
                 description: "",
                 status: 'success',
                 duration: 3000,
@@ -44,7 +44,7 @@ const Sagar = () => {
                 quantity: "1",
             });
             setTimeout(() => {
-                navigate("/order")
+                navigate("/")
             }, 2000)
             // console.log(response.data);
         } catch (error) {

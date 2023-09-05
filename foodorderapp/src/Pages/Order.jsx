@@ -6,6 +6,14 @@ import { MdDeleteForever } from "react-icons/md"
 import { useToast } from '@chakra-ui/react';
 
 const Order = () => {
+  const [samosaTotal, setSamosaTotal] = useState(0);
+  const [wadaTotal, setwadaTotal] = useState(0);
+  const [paowadaTotal, setpaowadaTotal] = useState(0);
+  const [paneer, setpannerTotal] = useState(0);
+  const [bread, setbreadTotal] = useState(0);
+  const [tandoorTotal, settandoorTotal] = useState(0);
+
+  const [otherItemTotal, setOtherItemTotal] = useState(0);
   const toast = useToast()
   const [burgerorder, setburgerOrder] = useState([]);
   const [sagarrorder, setsagarOrder] = useState([]);
@@ -146,11 +154,47 @@ const Order = () => {
     }
   };
   useEffect(() => {
-    getBurgerData()
-    getSagarData()
-    getPizzaData()
-    otherData()
-  }, []);
+    getBurgerData();
+    getSagarData();
+    getPizzaData();
+    otherData();
+
+    // Calculate Samosa total
+    const samosaTotal = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Samosa' ? total + item.quantity : total),
+      0
+    );
+
+    // Calculate total for all other items
+    const wadaTotal = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Wada pao' ? total + item.quantity : total),
+      0
+    );
+    const paowadaTotal = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Pao Wada' ? total + item.quantity : total),
+      0
+    );
+    const paneer = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Panner Sandwich' ? total + item.quantity : total),
+      0
+    );
+    const bread = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Bread Sandwich' ? total + item.quantity : total),
+      0
+    );
+    const tandoorTotal = sagarrorder.reduce(
+      (total, item) => (item.choice === 'Tandoor Roll' ? total + item.quantity : total),
+      0
+    );
+
+    setSamosaTotal(samosaTotal);
+    setwadaTotal(wadaTotal);
+    setpaowadaTotal(paowadaTotal);
+    setpannerTotal(paneer);
+    setbreadTotal(bread);
+    settandoorTotal(tandoorTotal);
+    // setpannerTotal(paneer);
+  }, [sagarrorder]);
 
   return (
     <div>
@@ -216,7 +260,12 @@ const Order = () => {
             </tbody>
           </table>
         </div>)}
-
+        <h2>Total Samosa: {samosaTotal}</h2>
+        <h2>Total Wada Pao: {wadaTotal}</h2>
+        <h2>Total Pao Wada:{paowadaTotal}</h2>
+        <h2>Total Paneer Sandwich:{paneer}</h2>
+        <h2>Total Bread Sandwich:{bread}</h2>
+        <h2>Total Tandoor Roll:{tandoorTotal}</h2>
         {pizzaorder.length > 0 && (<div className='order_container'>
           <h1 style={{ textAlign: "center", marginBottom: "10px", fontWeight: "bold", fontSize: "20px" }}>Domino's Pizza All Orders</h1>
           <table>
