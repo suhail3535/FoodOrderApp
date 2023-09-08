@@ -82,8 +82,8 @@ const Sagar = () => {
                             onChange={handleChange}
                             name="choice">
                             <option value=''>Select</option>
-                            <option value='Wada pao'>Wada pao</option>
-                            <option value='Pao Wada'>Pao Wada</option>
+                            <option value='Vada pav'>Vada pav</option>
+                            <option value='Pav Vada'>Pav vada</option>
                             <option value='Samosa'>Samosa</option>
                             <option value='Panner Sandwich'>Panner Sandwich</option>
                             <option value='Bread Sandwich'>Bread Sandwich</option>

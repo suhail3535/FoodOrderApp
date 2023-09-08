@@ -231,41 +231,45 @@ const Order = () => {
         </div>)}
 
 
-        {sagarrorder.length > 0 && (<div className='order_container'>
-          <h1 style={{ textAlign: "center", marginBottom: "10px", fontWeight: "bold", fontSize: "20px" }}>Sagar Sweets All Orders</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Choice</th>
-                <th>Quantity</th>
-                <th>Action</th>
-
-
-              </tr>
-            </thead>
-            <tbody>
-              {sagarrorder.map((item, index) => (
-                <tr key={index}>
-                  <td>{item.name}</td>
-                  <td>{item.choice}</td>
-                  <td>{item.quantity}</td>
-                  <td>
-                    <button onClick={() => handleDeleteClicksagar(item._id)}>
-                      <MdDeleteForever />
-                    </button>
-                  </td>
+        {sagarrorder.length > 0 && (
+          <div className='order_container'>
+            <h1 style={{ textAlign: "center", marginBottom: "10px", fontWeight: "bold", fontSize: "20px" }}>Sagar Sweets All Orders</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Choice</th>
+                  <th>Quantity</th>
+                  <th>Action</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>)}
-        <h2>Total Samosa: {samosaTotal}</h2>
-        <h2>Total Wada Pao: {wadaTotal}</h2>
-        <h2>Total Pao Wada:{paowadaTotal}</h2>
-        <h2>Total Paneer Sandwich:{paneer}</h2>
-        <h2>Total Bread Sandwich:{bread}</h2>
-        <h2>Total Tandoor Roll:{tandoorTotal}</h2>
+              </thead>
+              <tbody>
+                {sagarrorder.map((item, index) => (
+                  <tr key={index}>
+                    <td>{item.name}</td>
+                    <td>{item.choice}</td>
+                    <td>{item.quantity}</td>
+                    <td>
+                      <button onClick={() => handleDeleteClicksagar(item._id)}>
+                        <MdDeleteForever />
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+
+
+            {samosaTotal > 0 && <h2>Total Samosa: {samosaTotal}</h2>}
+            {wadaTotal > 0 && <h2>Total Vada Pav: {wadaTotal}</h2>}
+            {paowadaTotal > 0 && <h2>Total Pav Vada: {paowadaTotal}</h2>}
+            {paneer > 0 && <h2>Total Paneer Sandwich: {paneer}</h2>}
+            {bread > 0 && <h2>Total Bread Sandwich: {bread}</h2>}
+            {tandoorTotal > 0 && <h2>Total Tandoor Roll: {tandoorTotal}</h2>}
+          </div>
+        )}
+
+
         {pizzaorder.length > 0 && (<div className='order_container'>
           <h1 style={{ textAlign: "center", marginBottom: "10px", fontWeight: "bold", fontSize: "20px" }}>Domino's Pizza All Orders</h1>
           <table>
