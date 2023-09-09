@@ -7,6 +7,7 @@ import Other from "../Pages/Other";
 import Pizza from "../Pages/Pizza";
 import Sagar from "../Pages/Sagar";
 import Order from "../Pages/Order";
+import OrderPlaced from "../Pages/OrderPlaced";
 
 
 const MainRoutes = () => {
@@ -19,6 +20,7 @@ const MainRoutes = () => {
         <Route path="/pizza" element={<Pizza />} />
         <Route path="/sagar" element={<Sagar />} />
         <Route path="/order" element={<Order />} />
+        <Route path="/orderplaced" element={<OrderPlaced />} />
 
       </Routes>
     </div>

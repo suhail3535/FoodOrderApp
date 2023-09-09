@@ -45,7 +45,7 @@ const Pizza = () => {
                 quantity: "1",
             });
             setTimeout(() => {
-                navigate("/")
+                navigate("/orderplaced")
             }, 2000)
             // console.log(response.data);
         } catch (error) {

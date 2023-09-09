@@ -167,11 +167,11 @@ const Order = () => {
 
     // Calculate total for all other items
     const wadaTotal = sagarrorder.reduce(
-      (total, item) => (item.choice === 'Wada pao' ? total + item.quantity : total),
+      (total, item) => (item.choice === 'Vada pav' ? total + item.quantity : total),
       0
     );
     const paowadaTotal = sagarrorder.reduce(
-      (total, item) => (item.choice === 'Pao Wada' ? total + item.quantity : total),
+      (total, item) => (item.choice === 'Pav Vada' ? total + item.quantity : total),
       0
     );
     const paneer = sagarrorder.reduce(

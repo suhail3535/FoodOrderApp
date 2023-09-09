@@ -58,7 +58,7 @@ const Burger = () => {
             console.log(error);
         }
         setTimeout(() => {
-            navigate("/")
+            navigate("/orderplaced")
         }, 2000)
 
     };
