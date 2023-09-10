@@ -9,7 +9,7 @@ const OrderPlaced = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             navigate("/");
-        }, 3000);
+        }, 5000);
 
         // Clean up the timeout when the component unmounts
         return () => clearTimeout(timeout);

@@ -71,7 +71,7 @@ const Other = () => {
 
 
             <div className='other_container'>
-                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "6rem" }}>Welcomes you..</h1>
+                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "1rem" }}>Welcomes you..</h1>
                 <div className='select_option_tab_other'>
                     <form>
                         <FormControl isRequired>

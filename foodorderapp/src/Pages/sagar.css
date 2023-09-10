@@ -1,15 +1,17 @@
 .select_option_tab{
     width: 60%;
-    margin:  2rem auto;
+    margin:  20px auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
+    /* border: 1px solid teal; */
 
 }
 .sagar_container{
     width: 60%;
     margin:  auto;
+    /* border: 1px solid yellow; */
     height: auto;
-    padding: 2rem;
+    /* padding: 2rem; */
     /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 }
 .btn_div{
@@ -27,7 +29,9 @@
 @media screen and (min-width:280px) and (max-width:768px) {
 .select_option_tab{
     width: 90%;
-    margin:  2rem auto;
+    /* border: 1px solid red; */
+
+    margin:  20px auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
 
@@ -36,7 +40,8 @@
     width: 100%;
     margin:  auto;
     height: auto;
-    padding: 2rem;
+    /* border: 1px solid red; */
+    padding: 20px;
     /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 }
 .btn_div{

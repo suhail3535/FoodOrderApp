@@ -68,7 +68,7 @@ const Sagar = () => {
             <Navbar />
 
             <div className='sagar_container'>
-                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "6rem" }}>Welcome to Sagar Sweets</h1>
+                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "1rem" }}>Welcome to Sagar Sweets</h1>
                 <div className='select_option_tab'>
                     <FormControl isRequired>
                         <FormLabel>Name</FormLabel>

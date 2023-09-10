@@ -70,7 +70,7 @@ const Pizza = () => {
 
 
             <div className='pizza_container'>
-                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "6rem" }}>Welcome to Domino's Pizza Point</h1>
+                <h1 style={{ textAlign: "center", fontSize: "20px", fontWeight: "bold", marginTop: "1rem" }}>Welcome to Domino's Pizza Point</h1>
                 <div className='select_option_tab_pizza'>
                     <FormControl isRequired>
                         <FormLabel>Name</FormLabel>
